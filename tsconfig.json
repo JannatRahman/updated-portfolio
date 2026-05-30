@@ -1,0 +1,66 @@
+{
+  "include": [
+    "eslint.config.js",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/routes/index.tsx",
+    "vite.config.ts",
+    ".next/types/**/*.ts",
+    "src/app/layout.jsx",
+    "src/lib/error-capture.js",
+    "src/lib/error-page.js",
+    "src/lib/utils.ts",
+    "src/components/portfolio/About.jsx",
+    "src/components/portfolio/Contact.jsx",
+    "src/components/portfolio/Footer.jsx",
+    "src/components/portfolio/Hero.jsx",
+    "src/components/portfolio/Navbar.jsx",
+    "src/components/portfolio/Projects.jsx",
+    "src/components/portfolio/Services.jsx",
+    "src/components/portfolio/Skills.jsx",
+    ".next/dev/types/**/*.ts"
+  ],
+  "compilerOptions": {
+    "target": "ES2022",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "node"
+    ],
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": false,
+    "noEmit": true,
+    /* Linting */
+    "skipLibCheck": true,
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "allowJs": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
