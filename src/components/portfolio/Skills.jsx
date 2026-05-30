@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 const techs = [
   "React", "Next.js",  "JavaScript", "Node.js", "Express",
   "MongoDB", "PostgreSQL", "Tailwind", "Firebase", "GraphQL", "Git","GitHub",
-  "Framer Motion", "Figma","HeroUi" ,"Docker",
+  "Framer Motion", "Figma","HeroUi" ,"Docker", "DaisyUI", 
 ];
 
 const categories = [
