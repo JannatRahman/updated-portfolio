@@ -8,9 +8,18 @@ import p2 from "@/assets/SkillSphere.png";
 import p3 from "@/assets/digiTools.jpg";
 import p4 from "@/assets/bookvibe.png";
 import p5 from "@/assets/playStore.jpg";
-import p6 from "@/assets//tracker.png";
+import p6 from '@/assets/image-new.jpg'
 
 const projects = [
+  {
+    img: p6,
+    title: "StudyNook",
+    desc: "StudyNook is a modern online library room booking platform that allows students to find and reserve study rooms based on their preferences.",
+    tags: ["JavaScript", "Nextjs",'Nodejs', 'MongoDb', 'Reactjs', "Tailwind CSS"], category: "Fullstack",
+    live: 'https://study-nook-phi.vercel.app/',
+    
+    github: 'https://github.com/JannatRahman/studynook-client-server'
+  },
   {
     img: p1,
     title: "KinKeeper",
@@ -39,10 +48,7 @@ const projects = [
     github: 'https://github.com/JannatRahman/Play-Store'
   },
 
-  { img: p6, title: "Job Application Tracker", desc: "Keeps tracks of applications to keep up to date.", tags: ["JavaScript", "ReactJs", "Tailwind CSS", "HTML"], category: "Frontend",
-    live: 'https://jannatrahman.github.io/GitHub-ISSUE-TRACKER/',
-    github: 'https://github.com/JannatRahman/GitHub-ISSUE-TRACKER'
-   },
+  
 ];
 
 const filters = ["All", "Frontend", "Fullstack"];
